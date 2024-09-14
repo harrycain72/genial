@@ -8,7 +8,7 @@ setup(
     description="Manages connections to different large language models",  # Short description
     long_description=open('README.md').read(),  # A detailed description (from README.md)
     long_description_content_type='text/markdown',
-    url="https://github.com/harrycain72/genial.connection_mngrt",  # URL to your repository
+    url="https://github.com/harrycain72/pypi",  # URL to your repository
     packages=find_packages(),               # Automatically find package directories
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -17,6 +17,7 @@ setup(
     ],
     python_requires='>=3.10',                # Minimum Python version required
     install_requires=[                      # Dependencies (optional)
-        # List your dependencies here
+        "loguru",
+        "langchain"
     ],
 )
