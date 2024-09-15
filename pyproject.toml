@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "connection-mngr"
+name = "genial"
 version = "0.1.0"
 description = ""
 authors = ["Roland <harry.cain72@gmail.com>"]

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="connection_mngr",               # The name of your package
+    name="language_models",               # The name of your package
     version="0.1.0",                        # The initial release version
     author="roland",                     # Your name or the organization
     author_email="your.email@example.com",  # Your contact email
